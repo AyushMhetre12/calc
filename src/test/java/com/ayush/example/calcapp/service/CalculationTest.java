@@ -49,7 +49,7 @@ public class CalculationTest {
 
     @AfterEach
     public void done(){
-        logger.info("setup ended");
+        logger.info("setup ended?");
         this.calculation =null;
     }
 

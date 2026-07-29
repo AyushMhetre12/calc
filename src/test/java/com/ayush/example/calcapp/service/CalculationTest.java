@@ -39,6 +39,13 @@ public class CalculationTest {
 
 
     }
+    @Test
+    public void testDiv(){
+        Assertions.assertNotNull(calculation,"object is null");
+        Assertions.assertEquals(12,calculation.mul(48,4));
+
+
+    }
 
     @AfterEach
     public void done(){

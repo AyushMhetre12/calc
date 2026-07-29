@@ -42,7 +42,7 @@ public class CalculationTest {
     @Test
     public void testDiv(){
         Assertions.assertNotNull(calculation,"object is null");
-        Assertions.assertEquals(12,calculation.mul(48,4));
+        Assertions.assertEquals(12,(int)calculation.div(48,4));
 
 
     }
